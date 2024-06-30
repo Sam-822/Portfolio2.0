@@ -18,7 +18,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="public/logo.svg"
+            src="/logo.svg"
             width="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
