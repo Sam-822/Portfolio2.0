@@ -14,17 +14,17 @@ const Projects = () => {
 	const intrusionDetectionLink = 'https://github.com/Sam-822/Intrusion-Detection-System';
 	const foodBuddyLink = 'https://foodbuddyabdul.netlify.app/'
 	return (
-		<>
-			<div className="container my-5">
+		<div className="ignore-nav">
+			<div className="container my-3">
 				<p className="fs-1 text-crimson">Projects</p>
-				<div className="container d-flex justify-content-between my-5" style={{ flexWrap: 'wrap' }}>
+				<div className="container d-flex justify-content-between my-3" style={{ flexWrap: 'wrap' }}>
 					<ProjectItem img='AttendanceMonitoring.png' title='Attendance Monitoring System' description={attendanceMonitoringDesc} link={attendanceMonitoringLink} />
 					<ProjectItem img='FakeNews.png' title='Fake News Detection' description={fakeNewsDesc} link={fakeNewsLink} />
 					<ProjectItem img='IntrusionDetection.png' title='Intrusion Detection System' description={intrusionDetectionDesc} link={intrusionDetectionLink} />
 					<ProjectItem img='FoodBuddy.png' title='FoodBuddy - Your culinary companion' description={foodBuddyDesc} link={foodBuddyLink} />
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }
 

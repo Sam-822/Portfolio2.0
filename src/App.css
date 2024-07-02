@@ -18,6 +18,7 @@ body{
 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/Hero.png');
 	background-size: cover;
 	background-attachment: fixed;
+	/* padding-top: 60px; */
 }
 
 .td-none{
@@ -27,6 +28,15 @@ body{
 
 .td-none:hover{
 	text-decoration: underline;
+}
+
+.ignore-nav{
+	padding-top: 80px;
+}
+
+.active-scroll-spy {
+  background-color: yellowgreen;
+  border-radius: 15px;
 }
 
 .footer-container {
