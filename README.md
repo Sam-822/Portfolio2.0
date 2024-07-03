@@ -30,12 +30,12 @@ Start the server
 ```
 
 
-## Deployment
+## Production Build
 
 To deploy this project run
 
 ```bash
-  npm run deploy
+  npm run build
 ```
 
 
