@@ -12,11 +12,15 @@ import { useGSAP } from "@gsap/react";
 import TextPlugin from "gsap/TextPlugin";
 import { ScrollTrigger } from "gsap/all";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
-gsap.registerPlugin(TextPlugin, ScrollTrigger, MotionPathPlugin);
+gsap.registerPlugin(
+  TextPlugin,
+  ScrollTrigger,
+  MotionPathPlugin,
+);
 
 function App() {
   useGSAP(() => {
-    gsap.to("#brand-logo", { rotate: 720, x:200, duration: 1 });
+    gsap.to("#brand-logo", { rotate: 720, x: 200, duration: 1 });
     // gsap.to('#brand-name', {duration: 1, text: "Abdul Samad Ansari", ease:'none', delimiter: " " });
     gsap.to("#react-dev", {
       duration: 0.8,
@@ -31,6 +35,7 @@ function App() {
       </header>
       <main>
         <section id="home">
+          
           <Home />
         </section>
         <section id="projects">

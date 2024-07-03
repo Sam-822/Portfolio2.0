@@ -18,7 +18,7 @@ const Footer = () => {
             <Logo />
           </Col>
           <Col xs={5} className="d-flex align-items-center">
-            <div id="footer-name" className="fs-2">
+            <div id="footer-name" className="fs-2 text-crimson">
               Abdul Samad Ansari
             </div>
           </Col>
