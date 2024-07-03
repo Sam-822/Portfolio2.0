@@ -31,7 +31,7 @@ const ProjectItem = (props) => {
         <Card.Text>
           {description}
         </Card.Text>
-        <Button variant="primary" href={link} target='_blank' className='stretched-link'>Visit Project</Button>
+        <Button variant="primary" href={link} target='_blank' className='stretched-link'>View Project</Button>
       </Card.Body>
     </Card>
 	)
