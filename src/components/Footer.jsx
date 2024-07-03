@@ -67,7 +67,7 @@ const Footer = () => {
         </Row>
         <Button
           variant="light"
-          href="https://github.com/Sam-822"
+          href="https://github.com/Sam-822/Portfolio2.0"
           id="footer-button"
           target="_blank"
         >
