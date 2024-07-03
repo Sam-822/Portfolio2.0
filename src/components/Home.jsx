@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <div className="ignore-nav mt-5">
       <div className="container my-3 ">
-        <Container fluid="md d-flex justify-content-between" >
+        <Container id='home-main' fluid className="md d-flex justify-content-between" >
           <div className="home-text">
-            <p className="fs-1 text-crimson">ReactJs Developer</p>
-            <p className="my-5 fs-5" style={{ width: "50vw" }}>
-              I am <span className="text-red">Abdul Samad Ansari</span>, a passionate frontend developer with
-              expertise in HTML, CSS, JavaScript, and ReactJS. My extensive
+            <p id='react-dev' className="fs-1 text-crimson"></p>
+            <p id='generic-desc' className="my-5 fs-5" style={{ width: "50vw" }}>
+              I am <span className="text-crimson">Abdul Samad Ansari</span>, a passionate frontend developer with
+              expertise in HTML, CSS, JavaScript, ReactJS, and Bootstrap. My extensive
               project experience, as described in the projects section, has
               honed my problem-solving skills and equipped me with the ability
               to create dynamic, responsive web applications. Additionally, my
