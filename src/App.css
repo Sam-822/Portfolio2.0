@@ -88,6 +88,12 @@ body {
   #footer-button {
     font-size: 14px;
   }
+  #project-items-container {
+    grid-template-columns: auto !important;
+  }
+  #project-item-card {
+    width: -webkit-fill-available !important;
+  }
 }
 
 .cube-container {
@@ -165,6 +171,7 @@ body {
 
 #project-item-card {
   transition: transform 0.2s ease-in-out;
+  opacity: 0;
 }
 
 #project-item-card:hover {
