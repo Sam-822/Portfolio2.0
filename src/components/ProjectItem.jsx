@@ -8,7 +8,7 @@ import intrusion from '../assets/IntrusionDetection.png'
 import foodBuddy from '../assets/FoodBuddy.png'
 
 const ProjectItem = (props) => {
-	const { img, title, description, link } = props;
+	const { img, title, description, link, buttonText} = props;
 	let image = ''
   if(img === 'AttendanceMonitoring.png'){
 		image = attendance
@@ -31,7 +31,7 @@ const ProjectItem = (props) => {
         <Card.Text>
           {description}
         </Card.Text>
-        <Button variant="primary" href={link} target='_blank' className='stretched-link'>View Project</Button>
+        <Button variant="primary" href={link} target='_blank' className='stretched-link'>{buttonText==='deploy'? 'View Deployed Project': 'View Project on Github'}</Button>
       </Card.Body>
     </Card>
 	)
