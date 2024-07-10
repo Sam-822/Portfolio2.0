@@ -16,10 +16,10 @@ const Projects = () => {
 			<div className="container my-3">
 				<p id='project-box' className="fs-1 text-crimson">Projects</p>
 				<div id='project-items-container' className="container d-grid justify-content-center my-3" style={{gridTemplateColumns:'auto auto'}}>
+					<ProjectItem img='FoodBuddy.png' title='FoodBuddy - Your culinary companion' description={foodBuddyDesc} link={foodBuddyLink} buttonText='deploy' />
 					<ProjectItem img='AttendanceMonitoring.png' title='Attendance Monitoring System' description={attendanceMonitoringDesc} link={attendanceMonitoringLink} buttonText='undeploy' />
 					<ProjectItem img='FakeNews.png' title='Fake News Detection' description={fakeNewsDesc} link={fakeNewsLink} buttonText='undeploy' />
 					<ProjectItem img='IntrusionDetection.png' title='Intrusion Detection System' description={intrusionDetectionDesc} link={intrusionDetectionLink} buttonText='undeploy' />
-					<ProjectItem img='FoodBuddy.png' title='FoodBuddy - Your culinary companion' description={foodBuddyDesc} link={foodBuddyLink} buttonText='deploy' />
 				</div>
 			</div>
 		</div>

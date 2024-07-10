@@ -22,11 +22,12 @@ function App() {
       text: "ReactJs Developer",
       ease: "none",
     });
-		gsap.to('#project-item-card', {
-			scrollTrigger: '#project-item-card',
-			opacity: 1,
-			stagger: 0.4,
-	});
+    gsap.to("#project-item-card", {
+      scrollTrigger: "#project-item-card",
+      opacity: 1,
+      stagger: 0.15,
+			duration: 0.2,
+    });
   });
   return (
     <>

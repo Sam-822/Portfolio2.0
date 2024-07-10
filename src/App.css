@@ -170,10 +170,19 @@ body {
 }
 
 #project-item-card {
-  transition: transform 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   opacity: 0;
+  /* box-shadow: 0 0 5px orange; */
 }
 
 #project-item-card:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
+  box-shadow: 0 0 15px crimson;
+}
+
+#generic-desc {
+  background: linear-gradient(315deg, #999, #eee 110%);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
 }
