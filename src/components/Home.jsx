@@ -13,11 +13,7 @@ const Home = () => {
         >
           <div className="home-text">
             <p id="react-dev" className="fs-1 text-crimson"></p>
-            <p
-              id="generic-desc"
-              className=" fs-5"
-              style={{ width: "50vw" }}
-            >
+            <p id="generic-desc" className=" fs-5" style={{ width: "50vw" }}>
               I am <span className="text-crimson">Abdul Samad Ansari</span>, a
               passionate frontend developer with expertise in HTML, CSS,
               JavaScript, ReactJS, and Bootstrap. My extensive project
@@ -80,6 +76,7 @@ const Home = () => {
             </svg>
           </div>
         </Container>
+				<img src="/helm.png" className="helm autoRotate" alt="" />
       </div>
     </div>
   );

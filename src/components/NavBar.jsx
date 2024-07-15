@@ -4,12 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
-  const handleHomeClick = () => {
-    window.scrollTo(top);
-  };
-  const handleProjectsClick = () => {
-    window.scrollTo(0, 800);
-  };
   return (
     <Navbar
       expand="lg"

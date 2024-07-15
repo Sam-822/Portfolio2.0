@@ -1,21 +1,18 @@
 import React from "react";
-import headerImg from "../assets/header_img.png";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 const About = () => {
   return (
     <div className="ignore-nav">
       <div id='about-container' className="container my-3 d-flex justify-content-between">
         <Container fluid="md">
-              <p id='about-box' className="fs-1 text-crimson">About</p>
-              <p id='generic-desc' className="fs-5">
+              <p id='about-box' className="fs-1 text-crimson autoShowText">About</p>
+              <p id='generic-desc' className="fs-5 autoShowText">
                 I'm Abdul Samad Ansari, a passionate MERN stack developer with a
                 flair for building dynamic and interactive web applications. My
                 expertiselies in the following technologies:
               </p>
-              <ul id='generic-desc' className="fs-5">
+              <ul id='generic-desc' className="fs-5 autoShowText">
                 <li>
                   <span id='generic-desc'>
                     React.js: I create responsive anduser-friendly interfaces
@@ -61,7 +58,7 @@ const About = () => {
                   </span>
                 </li>
               </ul>
-              <p id='generic-desc' className="fs-5">
+              <p id='generic-desc' className="fs-5 autoShowText">
                 Whether it's crafting pixel-perfect UI components or optimizing
                 backend performance, I'm committed to delivering clean, code
                 that adheres to industry standards. Let's collaborate and bring

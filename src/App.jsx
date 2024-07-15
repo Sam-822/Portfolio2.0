@@ -34,7 +34,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main>
+      <main >
         <section id="home">
           <Home />
         </section>

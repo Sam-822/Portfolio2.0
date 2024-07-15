@@ -24,7 +24,7 @@ const ProjectItem = (props) => {
 		image = foodBuddy
 	}
 	return (
-		<Card id='project-item-card' className='mx-2 my-4' style={{ width: '32rem', height:'fit-content' }}>
+		<Card id='project-item-card' className='mx-2 my-4 autoShow' style={{ width: '32rem', height:'fit-content' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
