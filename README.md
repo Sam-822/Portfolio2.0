@@ -1,7 +1,7 @@
 
 # Portfolio
 
-This github repository contains the production build files for Abdul Samad's portflio. If you wish to see the development files, you can see them on this [repository](https://github.com/Sam-822/Portfolio2.0-Development-server)
+This github repository contains the portfolio files of Abdul Samad Ansari, you can view the portfolio [here](https://abdulsamadsportfolio2.netlify.app/)
 
 ## Run Locally
 
