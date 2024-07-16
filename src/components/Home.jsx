@@ -16,7 +16,7 @@ const Home = () => {
         "Bootstrap",
       ],
       typeSpeed: 50,
-      backSpeed: 50,
+      backSpeed: 20,
       loop: "true",
     });
     return () => {
@@ -36,11 +36,14 @@ const Home = () => {
             <p id="react-dev" className="fs-1 text-crimson">
               Abdul Samad Ansari
             </p>
-            <p  className="text-white fs-2" style={{ width: "50vw" }}>
+            <p
+              className="text-white fs-2 generic-desc"
+              style={{ width: "50vw" }}
+            >
               I am a Web Developer who works with{" "}
-              <span id="type-list" className="text-crimson fs-2"></span>
+              <span id="type-list" className="text-crimson fs-2 "></span>
             </p>
-            <p className="text-white fs-5" id="generic-desc" style={{ width: "50vw" }}>
+            <p className="text-white generic-desc" style={{ width: "50vw" }}>
               My extensive project experience, as described in the projects
               section, has honed my problem-solving skills and equipped me with
               the ability to create dynamic, responsive web applications.

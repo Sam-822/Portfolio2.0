@@ -17,10 +17,8 @@ const NavBar = () => {
 					id="brand-logo"
             xmlns="http://www.w3.org/2000/svg"
             xmlSpace="preserve"
-            // width="30px"
             height="40px"
             version="1.1"
-            // style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 						style={{shapeRendering:'geometricPrecision', textRendering:'geometricPrecision', imageRendering:'optimize-Quality', fillRule:'evenodd', clipRule:'evenodd'}}
             viewBox="0 0 1931.65 2923.88"
             xmlnsXlink="http://www.w3.org/1999/xlink"
