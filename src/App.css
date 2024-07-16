@@ -59,7 +59,7 @@ body {
     flex-direction: column-reverse;
   }
   #generic-desc {
-    width: 98vw !important;
+    width: 95vw !important;
     font-size: 14px !important;
   }
   .home-text {
@@ -183,7 +183,6 @@ body {
   background: linear-gradient(315deg, #999, #eee 110%);
   background-clip: text;
   color: transparent;
-  font-weight: bold;
 }
 
 .autoShow {
@@ -257,4 +256,15 @@ body {
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6) 20%
   );
+}
+
+.internal-card{
+	border-radius: 10px;
+	width: 180px;
+	height: 100px;
+	box-shadow: 0 0 5px crimson;
+}
+
+.outer-card{
+	transform: rotate(30deg);
 }

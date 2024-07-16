@@ -5,7 +5,7 @@ import Typed from "typed.js";
 
 const Home = () => {
   useEffect(() => {
-    const typed = new Typed("#generic-desc", {
+    const typed = new Typed("#type-list", {
       strings: [
         "React.JS",
         "Next.JS",
@@ -36,11 +36,11 @@ const Home = () => {
             <p id="react-dev" className="fs-1 text-crimson">
               Abdul Samad Ansari
             </p>
-            <p className="text-white fs-2" style={{ width: "50vw" }}>
+            <p  className="text-white fs-2" style={{ width: "50vw" }}>
               I am a Web Developer who works with{" "}
-              <span id="generic-desc" className="text-crimson fs-2"></span>
+              <span id="type-list" className="text-crimson fs-2"></span>
             </p>
-            <p className="text-white fs-5" style={{ width: "50vw" }}>
+            <p className="text-white fs-5" id="generic-desc" style={{ width: "50vw" }}>
               My extensive project experience, as described in the projects
               section, has honed my problem-solving skills and equipped me with
               the ability to create dynamic, responsive web applications.

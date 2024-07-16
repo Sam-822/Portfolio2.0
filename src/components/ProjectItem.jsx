@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import attendance from "../assets/AttendanceMonitoring.png";
 import fakeNews from "../assets/FakeNews.png";
 import healthVault from "../assets/HealthVault.png";
-import intrusion from "../assets/IntrusionDetection.png";
+import shopbuddy from "../assets/e-commerce.png"
 import foodBuddy from "../assets/FoodBuddy.png";
 
 const ProjectItem = (props) => {
@@ -16,8 +16,8 @@ const ProjectItem = (props) => {
     image = fakeNews;
   } else if (img === "HealthVault.png") {
     image = healthVault;
-  } else if (img === "IntrusionDetection.png") {
-    image = intrusion;
+  } else if (img === "e-commerce.png") {
+    image = shopbuddy;
   } else if (img === "FoodBuddy.png") {
     image = foodBuddy;
   }
@@ -31,6 +31,7 @@ const ProjectItem = (props) => {
       }}
     >
       <Card.Img variant="top" src={image} />
+			
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
