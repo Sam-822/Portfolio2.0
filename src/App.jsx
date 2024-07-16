@@ -7,28 +7,8 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import TextPlugin from "gsap/TextPlugin";
-import { ScrollTrigger } from "gsap/all";
-import MotionPathPlugin from "gsap/MotionPathPlugin";
-gsap.registerPlugin(TextPlugin, ScrollTrigger, MotionPathPlugin);
 
 function App() {
-  useGSAP(() => {
-    gsap.to("#brand-logo", { rotate: 720, x: 200, duration: 1 });
-    gsap.to("#react-dev", {
-      duration: 0.8,
-      text: "ReactJs Developer",
-      ease: "none",
-    });
-    gsap.to("#project-item-card", {
-      scrollTrigger: "#project-item-card",
-      opacity: 1,
-      stagger: 0.15,
-			duration: 0.2,
-    });
-  });
   return (
     <>
       <header>

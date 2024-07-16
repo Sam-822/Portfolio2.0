@@ -3,7 +3,7 @@ import resume from "../assets/Abdul Samad Ansari Mk5.pdf";
 
 const Contacts = () => {
   return (
-    <div className="mb-5 ignore-nav">
+    <div className="mb-5 ignore-nav text-white">
       <div
         className="container my-3"
         style={{ height: "calc(fit-content + 100px)" }}

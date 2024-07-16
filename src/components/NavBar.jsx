@@ -7,19 +7,12 @@ const NavBar = () => {
   return (
     <Navbar
       expand="lg"
-      className="bg-body-tertiary "
-      style={{ boxShadow: "0px 5px 20px #4a525b" }}
-      fixed="top"
+      className="nav-glass"
+      style={{ boxShadow: "0px 5px 20px black" }}
+			fixed="top"
     >
       <Container>
         <Navbar.Brand href="/">
-          {/* <img
-            id="brand-logo"
-            src="/logo.svg"
-            width="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          /> */}
           <svg
 					id="brand-logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -28,18 +21,12 @@ const NavBar = () => {
             height="40px"
             version="1.1"
             // style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-						style={{shapeRendering:'geometricPrecision', textRendering:'geometricPrecision', imageRendering:'optimize-Quality', fillRule:'evenodd', clipRule:'evenodd', marginLeft:'-200px'}}
+						style={{shapeRendering:'geometricPrecision', textRendering:'geometricPrecision', imageRendering:'optimize-Quality', fillRule:'evenodd', clipRule:'evenodd'}}
             viewBox="0 0 1931.65 2923.88"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns:xodm="http://www.corel.com/coreldraw/odm/2003"
           >
             <g id="Layer_x0020_1">
-              {/* <path
-                id="circle"
-                class="st1"
-                d="M490.1,280.649c0,44.459-36.041,80.5-80.5,80.5s-80.5-36.041-80.5-80.5s36.041-80.5,80.5-80.5
-  S490.1,236.19,490.1,280.649z"
-              /> */}
               <metadata id="CorelCorpID_0Corel-Layer" />
               <path
                 id="logo"
@@ -49,15 +36,15 @@ const NavBar = () => {
             </g>
           </svg>
         </Navbar.Brand>
-        <Navbar.Brand id="brand-name" href="/" style={{marginLeft:'30px'}}>Abdul Samad Ansari</Navbar.Brand>
+        <Navbar.Brand id="brand-name" href="/" className="text-white fs-3 fw-semibold" style={{marginLeft:'30px'}}>Abdul Samad Ansari</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#contact">Contact Me</Nav.Link>
+            <Nav.Link className="text-white" href="#home">Home</Nav.Link>
+            <Nav.Link className="text-white" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="text-white" href="#about">About</Nav.Link>
+            <Nav.Link className="text-white" href="#contact">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import headerImg from "../assets/header_img.png";
 import Container from "react-bootstrap/Container";
+import Typed from "typed.js";
 
 const Home = () => {
+  useEffect(() => {
+    const typed = new Typed("#generic-desc", {
+      strings: [
+        "React.JS",
+        "Next.JS",
+        "Express.JS",
+        "Node.JS",
+        "MongoDB",
+        "Vite",
+        "Bootstrap",
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: "true",
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="ignore-nav mt-5">
       <div className="container my-5 ">
@@ -12,17 +33,20 @@ const Home = () => {
           className="md d-flex justify-content-between"
         >
           <div className="home-text">
-            <p id="react-dev" className="fs-1 text-crimson"></p>
-            <p id="generic-desc" className=" fs-5" style={{ width: "50vw" }}>
-              I am <span className="text-crimson">Abdul Samad Ansari</span>, a
-              passionate frontend developer with expertise in HTML, CSS,
-              JavaScript, ReactJS, and Bootstrap. My extensive project
-              experience, as described in the projects section, has honed my
-              problem-solving skills and equipped me with the ability to create
-              dynamic, responsive web applications. Additionally, my backend
-              knowledge in technologies like NodeJS and ExpressJS complements my
-              frontend skills, allowing me to contribute to full-stack
-              development projects effectively.
+            <p id="react-dev" className="fs-1 text-crimson">
+              Abdul Samad Ansari
+            </p>
+            <p className="text-white fs-2" style={{ width: "50vw" }}>
+              I am a Web Developer who works with{" "}
+              <span id="generic-desc" className="text-crimson fs-2"></span>
+            </p>
+            <p className="text-white fs-5" style={{ width: "50vw" }}>
+              My extensive project experience, as described in the projects
+              section, has honed my problem-solving skills and equipped me with
+              the ability to create dynamic, responsive web applications.
+              Additionally, my backend knowledge in technologies like NodeJS and
+              ExpressJS complements my frontend skills, allowing me to
+              contribute to full-stack development projects effectively.
             </p>
           </div>
           <div className="home-svg">
@@ -76,7 +100,7 @@ const Home = () => {
             </svg>
           </div>
         </Container>
-				<img src="/helm.png" className="helm autoRotate" alt="" />
+        <img src="/helm.png" className="helm autoRotate" alt="" />
       </div>
     </div>
   );

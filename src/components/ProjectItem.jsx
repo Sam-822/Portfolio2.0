@@ -24,7 +24,7 @@ const ProjectItem = (props) => {
   return (
     <Card
       id="project-item-card"
-      className="glass mx-2 my-4 autoShow"
+      className="glass mx-2 my-4 autoShow text-white"
       style={{
         width: "32rem",
         height: "fit-content"
