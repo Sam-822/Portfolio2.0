@@ -14,6 +14,7 @@ const Home = () => {
         "MongoDB",
         "Vite",
         "Bootstrap",
+				"Tailwind"
       ],
       typeSpeed: 50,
       backSpeed: 20,
