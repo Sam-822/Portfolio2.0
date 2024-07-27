@@ -3,7 +3,7 @@ import React from 'react'
 const Logo = () => {
 	return (
 		<div className="cube-container mx-2">
-        <div className="cube">
+        <div className="cube pers650">
             <div className="face front"><img src="/logo.svg" height="100%" alt="" /></div>
             <div className="face back"><img src="/logo.svg" height="100%" alt="" /></div>
             <div className="face left"><img src="/logo.svg" height="100%" alt="" /></div>

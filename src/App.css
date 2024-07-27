@@ -270,3 +270,7 @@ body {
   display: flex;
   align-items: center;
 }
+
+.pers650{
+	perspective: 650px;
+}

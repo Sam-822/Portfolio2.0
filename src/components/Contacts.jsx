@@ -12,11 +12,11 @@ const Contacts = () => {
         <p className="fs-4 autoShowText">Find my contact details below</p>
         <div className="autoShowText">
           <div className="contact-item generic-desc mb-1">
-            <i class="bi bi-envelope-at-fill fs-3 me-2"></i>
+            <i className="bi bi-envelope-at-fill fs-3 me-2"></i>
             Email: ansamad1028@gmail.com
           </div>
           <div className="contact-item generic-desc mb-1">
-            <i class="bi bi-linkedin fs-3 me-2"></i>
+            <i className="bi bi-linkedin fs-3 me-2"></i>
             LinkedIn:&nbsp;
             <a
               href="https://www.linkedin.com/in/abdulsamad102/"
@@ -28,7 +28,7 @@ const Contacts = () => {
             </a>
           </div>
           <div className="contact-item generic-desc mb-1">
-            <i class="bi bi-github fs-3 me-2"></i>
+            <i className="bi bi-github fs-3 me-2"></i>
             Github:&nbsp;
             <a
               href="https://github.com/Sam-822"
@@ -40,7 +40,7 @@ const Contacts = () => {
             </a>
           </div>
           <div className="contact-item generic-desc mb-1">
-            <i class="bi bi-file-earmark-arrow-down-fill fs-3 me-2"></i>
+            <i className="bi bi-file-earmark-arrow-down-fill fs-3 me-2"></i>
             Resume:&nbsp;
             <a
               href={resume}
