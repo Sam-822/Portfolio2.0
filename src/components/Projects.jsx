@@ -18,7 +18,7 @@ const Projects = () => {
 			<div className="container my-3">
 				<p id='project-box' className="fs-1 text-crimson">Projects</p>
 				<div id='project-items-container' className="container d-grid justify-content-center my-3" style={{gridTemplateColumns:'auto auto'}}>
-					<ProjectItem img='/BookPalaceCropped.png' title='Books Palace - The perfect place to find books to read' description={bookPalaceDesc} link={bookPalaceLink} buttonText='deploy' />
+					<ProjectItem img='/BookPalace.png' title='Books Palace - The perfect place to find books to read' description={bookPalaceDesc} link={bookPalaceLink} buttonText='deploy' />
 					<ProjectItem img='/e-commerce.png' title='ShopBuddy- E-Commerce template' description={shopBuddyDesc} link={shopBuddyLink} buttonText='deploy' />
 					<ProjectItem img='/FoodBuddy.png' title='FoodBuddy - Your culinary companion' description={foodBuddyDesc} link={foodBuddyLink} buttonText='deploy' />
 					<ProjectItem img='/AttendanceMonitoring.png' title='Attendance Monitoring System' description={attendanceMonitoringDesc} link={attendanceMonitoringLink} buttonText='undeploy' />
