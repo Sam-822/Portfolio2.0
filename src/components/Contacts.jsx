@@ -12,8 +12,10 @@ const Contacts = () => {
         <p className="fs-4 autoShowText">Find my contact details below</p>
         <div className="autoShowText">
           <div className="contact-item generic-desc mb-1">
-            <i className="bi bi-envelope-at-fill fs-3 me-2"></i>
-            Email: ansamad1028@gmail.com
+            <a href="mailto:ansamad1028@gmail.com" target="_blank" className="td-none">
+              <i className="bi bi-envelope-at-fill fs-3 me-2"></i>
+              Email: ansamad1028@gmail.com
+            </a>
           </div>
           <div className="contact-item generic-desc mb-1">
             <i className="bi bi-linkedin fs-3 me-2"></i>
